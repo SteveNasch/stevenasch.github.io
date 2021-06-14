@@ -93,6 +93,20 @@ img {margin-bottom: -8px;}
   </div>
 </div>
 
+<!-- Modal2 -->
+<div id="comprar" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('comprar').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">Envie-me</h2>
+      <p>Se você tem alguma ideia de jogos que posso jogar em lives, <br>clique no link abaixo ou mande um e-mail para: <b>estevao.nasch@gmail.com</p>
+      <i class="fa fa-android w3-large"></i> <i class="fa fa-windows w3-large"></i>
+      <p><input class="w3-input w3-border" type="text" placeholder="Escreva aqui"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('download').style.display='none'">Enviar</button>
+    </div>
+  </div>
+</div>
+
 <!-- Clarity Section -->
 <div class="w3-padding-64 w3-grey">
   <div class="w3-row-padding">
@@ -186,7 +200,7 @@ img {margin-bottom: -8px;}
           <h2 class="w3-opacity">$ 15/h</h2>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large" onclick="document.getElementById('download').style.display='block'"><i class="fa fa-download"></i> Download</button>
+          <button class="w3-button w3-black w3-padding-large" onclick="document.getElementById('comprar').style.display='block'"><i class="fa fa-download"></i> Comprar</button>
         </li>
       </ul>
     </div>
